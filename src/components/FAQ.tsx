@@ -87,31 +87,6 @@ const FAQ = () => {
             </div>
           ))}
         </div>
-
-        {/* Additional Support */}
-        <div className="mt-16 bg-blue-50 rounded-2xl p-8 lg:p-12 text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Nog Steeds Vragen?
-          </h3>
-          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            Kun je het antwoord dat je zoekt niet vinden? Ons expert team is er om te helpen. 
-            Krijg gepersonaliseerde antwoorden op je specifieke vragen over het starten van je e-commerce reis.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#contact"
-              className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors duration-200"
-            >
-              Krijg Persoonlijke Consultatie
-            </a>
-            <a
-              href="#community"
-              className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-colors duration-200"
-            >
-              Vraag Onze Community
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
