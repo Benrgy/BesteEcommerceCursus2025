@@ -39,14 +39,14 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="#schrijf-je-nu-in"
+                href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535"
                 className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center space-x-2"
               >
                 <span>Start Je Reis Vandaag</span>
                 <ArrowRight className="h-5 w-5" />
               </a>
               <a
-                href="#hoe-het-werkt"
+                href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535"
                 className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center justify-center"
               >
                 Ontdek Hoe Het Werkt
