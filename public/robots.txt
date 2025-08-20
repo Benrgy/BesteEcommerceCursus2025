@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benrgy.github.io/BesteEcommerceCursus2025/sitemap.xml
