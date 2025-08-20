@@ -41,19 +41,9 @@ const FinalCTA = () => {
         {/* Main CTA Card */}
         <div className="bg-white rounded-2xl p-8 lg:p-12 text-gray-900 mb-12 max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <div className="bg-red-100 text-red-800 px-4 py-2 rounded-full inline-block mb-4 font-semibold">
-              🔥 Beperkte Tijd Aanbieding - Bespaar €2.000
-            </div>
-            <h3 className="text-3xl lg:text-4xl font-bold mb-4">
-              Complete E-commerce Onderwijs Programma
+            <h3 className="text-3xl lg:text-4xl font-bold mb-8">
+              Klaar Om Je E-commerce Reis Te Beginnen?
             </h3>
-            <div className="flex items-center justify-center space-x-4 mb-6">
-              <span className="text-3xl text-gray-400 line-through">€6,482</span>
-              <span className="text-5xl font-bold text-green-600">€4,482</span>
-            </div>
-            <p className="text-gray-600 mb-8">
-              Eenmalige betaling • Levenslange toegang • 30-dagen geld-terug-garantie
-            </p>
           </div>
 
           {/* Benefits Grid */}

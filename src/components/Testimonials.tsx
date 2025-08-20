@@ -135,25 +135,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Video Testimonials CTA */}
-        <div className="bg-blue-600 rounded-2xl p-8 lg:p-12 text-white text-center">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-            Bekijk Meer Succesverhalen
-          </h3>
-          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-            Bekijk video testimonials van onze studenten die hun complete reis delen van 
-            beginner tot succesvolle e-commerce ondernemer.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors duration-200 flex items-center justify-center space-x-2">
-              <Users className="h-5 w-5" />
-              <span>Sluit Je Aan Bij Onze Community</span>
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200">
-              Bekijk Video Verhalen
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
