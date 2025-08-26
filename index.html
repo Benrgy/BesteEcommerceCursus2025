@@ -1,26 +1,1480 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecom Education - Bouw Je €100k+ Online Business</title>
-    <meta name="description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten die €5k-€20k per maand verdienen." />
-    <meta name="keywords" content="e-commerce cursus, dropshipping, online business, webshop bouwen, affiliate marketing, nederland, geld verdienen online" />
+    <meta name="description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten die €5k-€20k per maand verdienen.">
+    <meta name="keywords" content="e-commerce cursus, dropshipping, online business, webshop bouwen, affiliate marketing, nederland, geld verdienen online">
     
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ecom Education - Bouw Je €100k+ Online Business" />
-    <meta property="og:description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten." />
-    <meta property="og:image" content="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ecom Education - Bouw Je €100k+ Online Business">
+    <meta property="og:description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten.">
+    <meta property="og:image" content="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg">
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Ecom Education - Bouw Je €100k+ Online Business" />
-    <meta name="twitter:description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten." />
-    <meta name="twitter:image" content="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
-  </body>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ecom Education - Bouw Je €100k+ Online Business">
+    <meta name="twitter:description" content="Leer bewezen strategieën om een €100k+ online webshop te bouwen. Sluit je aan bij 5000+ studenten.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                    </svg>
+                    <span class="logo-text">Ecom Education</span>
+                </div>
+
+                <nav class="nav desktop-nav">
+                    <a href="#programma" class="nav-link">Complete Programma</a>
+                    <a href="#succesverhalen" class="nav-link">Succesverhalen</a>
+                    <a href="#hoe-het-werkt" class="nav-link">Hoe Het Werkt</a>
+                    <a href="#veelgestelde-vragen" class="nav-link">Veelgestelde Vragen</a>
+                </nav>
+
+                <div class="cta-button desktop-cta">
+                    <a href="#schrijf-je-nu-in" class="btn btn-primary">Start Vandaag Met Leren</a>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#programma" class="mobile-nav-link">Complete Programma</a>
+                <a href="#succesverhalen" class="mobile-nav-link">Succesverhalen</a>
+                <a href="#hoe-het-werkt" class="mobile-nav-link">Hoe Het Werkt</a>
+                <a href="#veelgestelde-vragen" class="mobile-nav-link">Veelgestelde Vragen</a>
+                <a href="#schrijf-je-nu-in" class="btn btn-primary mobile-cta-btn">Start Vandaag Met Leren</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Bouw Je <span class="text-blue">€100,000+</span> Online Business
+                        </h1>
+                        
+                        <p class="hero-description">
+                            Leer bewezen dropshipping en e-commerce strategieën van ondernemers die 
+                            <strong>meer dan €10 miljoen omzet</strong> hebben gegenereerd. 
+                            Begin met het verdienen van €5.000-€20.000 maandelijks inkomen zonder hoge opstartkosten.
+                        </p>
+
+                        <div class="hero-benefits">
+                            <div class="benefit-item">
+                                <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>5.000+ Studenten</span>
+                            </div>
+                            <div class="benefit-item">
+                                <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                    <polyline points="17,6 23,6 23,12"/>
+                                </svg>
+                                <span>€10M+ Gegenereerd</span>
+                            </div>
+                            <div class="benefit-item">
+                                <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                                <span>Levenslange Toegang</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-cta">
+                            <a href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535" class="btn btn-primary btn-large">
+                                <span>Start Je Reis Vandaag</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"/>
+                                    <polyline points="12,5 19,12 12,19"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535" class="btn btn-secondary btn-large">
+                                Ontdek Hoe Het Werkt
+                            </a>
+                        </div>
+
+                        <p class="trust-indicator">
+                            ⭐⭐⭐⭐⭐ Beoordeeld met 4.9/5 door 2.500+ geverifieerde studenten
+                        </p>
+                    </div>
+
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                                 alt="Succesvolle ondernemers die werken aan e-commerce business" 
+                                 class="hero-img">
+                            <div class="image-overlay"></div>
+                        </div>
+                        
+                        <div class="floating-card floating-card-left">
+                            <div class="card-content">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                        <polyline points="17,6 23,6 23,12"/>
+                                    </svg>
+                                </div>
+                                <div class="card-text">
+                                    <p class="card-label">Maandelijkse Omzet</p>
+                                    <p class="card-value">€125,000+</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="floating-card floating-card-right">
+                            <div class="card-content">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </div>
+                                <div class="card-text">
+                                    <p class="card-label">Succespercentage</p>
+                                    <p class="card-value">87%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Bar -->
+        <section class="trust-bar">
+            <div class="container">
+                <div class="trust-elements">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                        <h3 class="trust-title">Gecertificeerde E-commerce Experts</h3>
+                        <p class="trust-subtitle">Opgericht 2019</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="trust-title">5.000+ Actieve Studenten</h3>
+                        <p class="trust-subtitle">Groeiende Community</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                                <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
+                                <path d="M3 12c0 6 6 9 9 9s9-3 9-9"/>
+                            </svg>
+                        </div>
+                        <h3 class="trust-title">30-Dagen Geld Terug</h3>
+                        <p class="trust-subtitle">Risicovrije Garantie</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+                        <h3 class="trust-title">Levenslange Toegang</h3>
+                        <p class="trust-subtitle">Verloopt Nooit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section class="problem-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Stop Met Worstelen Met Traditionele Bedrijfsmodellen</h2>
+                    <p class="section-description">
+                        De meeste mensen falen in e-commerce omdat ze het juiste systeem, mentorschap en bewezen strategieën missen. 
+                        Wij hebben deze exacte problemen opgelost voor meer dan 5.000 studenten.
+                    </p>
+                </div>
+
+                <div class="problem-solution-grid">
+                    <div class="problem-card">
+                        <div class="card-header">
+                            <div class="card-icon problem-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Veelvoorkomende Obstakels</h3>
+                        </div>
+                        
+                        <ul class="problem-list">
+                            <li class="problem-item">
+                                <svg class="list-icon problem-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                                <span>Hoge opstartkosten die je ervan weerhouden om te beginnen</span>
+                            </li>
+                            <li class="problem-item">
+                                <svg class="list-icon problem-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                                <span>Ingewikkelde technische setup en website ontwikkeling</span>
+                            </li>
+                            <li class="problem-item">
+                                <svg class="list-icon problem-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                                <span>Het vinden van betrouwbare leveranciers en voorraadbeheer</span>
+                            </li>
+                            <li class="problem-item">
+                                <svg class="list-icon problem-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                                <span>Gebrek aan marketingkennis en klantacquisitie</span>
+                            </li>
+                            <li class="problem-item">
+                                <svg class="list-icon problem-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="6" x2="6" y2="18"/>
+                                    <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                                <span>Overweldigende hoeveelheid tegenstrijdige informatie online</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="result-box problem-result">
+                            <p><strong>Resultaat:</strong> 95% van de mensen begint nooit of faalt binnen het eerste jaar</p>
+                        </div>
+                    </div>
+
+                    <div class="solution-card">
+                        <div class="card-header">
+                            <div class="card-icon solution-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Onze Oplossingen</h3>
+                        </div>
+                        
+                        <ul class="solution-list">
+                            <li class="solution-item">
+                                <svg class="list-icon solution-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                                <span>Begin met minimale investering (onder €500)</span>
+                            </li>
+                            <li class="solution-item">
+                                <svg class="list-icon solution-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                                <span>Kant-en-klare templates en stap-voor-stap technische gidsen</span>
+                            </li>
+                            <li class="solution-item">
+                                <svg class="list-icon solution-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                                <span>Gescreend leveranciersnetwerk en voorraadbeheersystemen</span>
+                            </li>
+                            <li class="solution-item">
+                                <svg class="list-icon solution-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                                <span>Bewezen marketing frameworks en automatiseringstools</span>
+                            </li>
+                            <li class="solution-item">
+                                <svg class="list-icon solution-list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"/>
+                                </svg>
+                                <span>Duidelijke, geteste strategieën van succesvolle ondernemers</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="result-box solution-result">
+                            <p><strong>Resultaat:</strong> 87% succespercentage met ons bewezen systeem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bridge-section">
+                    <div class="bridge-card">
+                        <h3 class="bridge-title">Klaar Om Je Aan Te Sluiten Bij De Succesvolle 87%?</h3>
+                        <p class="bridge-description">
+                            Ons uitgebreide programma elimineert elk obstakel en voorziet je van 
+                            het exacte systeem, tools en ondersteuning gebruikt door onze meest succesvolle studenten.
+                        </p>
+                        <a href="#programma" class="btn btn-primary btn-large">
+                            <span>Bekijk Het Complete Programma</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12,5 19,12 12,19"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="programma" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Alles Wat Je Nodig Hebt Om Je €100k+ Business Te Bouwen</h2>
+                    <p class="section-description">
+                        Ons uitgebreide programma biedt alle training, tools en ondersteuning die nodig is om je 
+                        e-commerce business te lanceren en op te schalen van nul naar zes cijfers.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Complete Video Cursus Bibliotheek</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            Meer dan 150+ uur gedetailleerde video training die alles behandelt van winkel setup tot geavanceerde schaalstrategieën.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Stap-voor-stap tutorials</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Geavanceerde technieken</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Regelmatige updates</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Mobiel-vriendelijke toegang</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Actieve Community & Netwerken</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            Sluit je aan bij 5.000+ gelijkgestemde ondernemers in onze privé community voor ondersteuning, partnerships en motivatie.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>24/7 community ondersteuning</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Netwerkmogelijkheden</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Partner matching</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Succesvieringen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+                                    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Wekelijkse Live Coaching Sessies</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            6 wekelijkse coaching calls met ons expert team om vragen te beantwoorden en gepersonaliseerde begeleiding te bieden.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Live Q&A sessies</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Gepersonaliseerd advies</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Strategie reviews</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Probleem oplossing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">AI-Aangedreven Tools & Automatisering</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            Geavanceerde AI tools voor productonderzoek, content creatie, klantenservice en marketing automatisering.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Product onderzoek AI</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Content generatie</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Klantenservice bots</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Marketing automatisering</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <circle cx="12" cy="12" r="6"/>
+                                    <circle cx="12" cy="12" r="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Bewezen Marketing Frameworks</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            Gevechtsgeteste marketing strategieën inclusief Facebook Ads, Google Ads, influencer marketing en organische groei.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Facebook Ads meesterschap</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Google Ads training</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Influencer strategieën</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>SEO technieken</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                    <path d="M4 22h16"/>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Exclusieve Bonussen & Bronnen</h3>
+                        </div>
+                        
+                        <p class="feature-description">
+                            Premium bronnen inclusief leveranciersdatabases, design templates, juridische documenten en case studies.
+                        </p>
+
+                        <div class="feature-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Leveranciers directory</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Design templates</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Juridische templates</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-dot"></div>
+                                <span>Succes case studies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program Statistics -->
+                <div class="program-stats">
+                    <div class="stats-header">
+                        <h3 class="stats-title">Program Impact & Results</h3>
+                        <p class="stats-description">Echte cijfers van onze studenten community</p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value">5.000+</div>
+                            <div class="stat-label">Actieve Studenten</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">€10M+</div>
+                            <div class="stat-label">Omzet Gegenereerd</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">87%</div>
+                            <div class="stat-label">Succespercentage</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">150+</div>
+                            <div class="stat-label">Uur Training</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="hoe-het-werkt" class="how-it-works-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Jouw Pad Naar E-commerce Succes</h2>
+                    <p class="section-description">
+                        Volg ons bewezen 4-stappen systeem dat duizenden studenten heeft geholpen succesvolle 
+                        online bedrijven te bouwen van complete beginners tot €100k+ per maand.
+                    </p>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step-item">
+                        <div class="step-content">
+                            <div class="step-header">
+                                <div class="step-number">01</div>
+                                <div class="step-info">
+                                    <h3 class="step-title">Beheers de Fundamenten</h3>
+                                    <div class="step-timeframe">Week 1-2</div>
+                                </div>
+                            </div>
+                            
+                            <p class="step-description">
+                                Begin met onze uitgebreide basis modules die e-commerce basics, marktonderzoek en niche selectie behandelen.
+                            </p>
+
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Complete beginnersvriendelijke video training</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Kies je winstgevende niche met onze bewezen methode</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Stel je bedrijfsstructuur en juridische vereisten op</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Toegang tot onze leveranciersdatabase en evaluatietools</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="step-visual">
+                            <div class="visual-container">
+                                <div class="visual-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polygon points="5,3 19,12 5,21 5,3"/>
+                                    </svg>
+                                </div>
+                                <div class="visual-number">01</div>
+                                <div class="visual-title">Beheers de Fundamenten</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item step-reverse">
+                        <div class="step-content">
+                            <div class="step-header">
+                                <div class="step-number">02</div>
+                                <div class="step-info">
+                                    <h3 class="step-title">Launch Je Winkel</h3>
+                                    <div class="step-timeframe">Week 3-4</div>
+                                </div>
+                            </div>
+                            
+                            <p class="step-description">
+                                Bouw en lanceer je professionele e-commerce winkel met onze templates en stap-voor-stap technische begeleiding.
+                            </p>
+
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Creëer je winkel met onze kant-en-klare templates</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Zoek en importeer je eerste producten</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Stel betalingsverwerking en verzending op</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Configureer analytics en tracking systemen</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="step-visual">
+                            <div class="visual-container">
+                                <div class="visual-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                        <line x1="3" y1="6" x2="21" y2="6"/>
+                                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                                    </svg>
+                                </div>
+                                <div class="visual-number">02</div>
+                                <div class="visual-title">Launch Je Winkel</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-content">
+                            <div class="step-header">
+                                <div class="step-number">03</div>
+                                <div class="step-info">
+                                    <h3 class="step-title">Genereer Traffic & Verkopen</h3>
+                                    <div class="step-timeframe">Week 5-8</div>
+                                </div>
+                            </div>
+                            
+                            <p class="step-description">
+                                Implementeer bewezen marketing strategieën om klanten aan te trekken en consistent je eerste verkopen te genereren.
+                            </p>
+
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Start Facebook en Google advertentiecampagnes</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Implementeer onze organische traffic strategieën</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Stel email marketing automatisering op</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Optimaliseer voor conversies met onze geteste methoden</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="step-visual">
+                            <div class="visual-container">
+                                <div class="visual-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                        <polyline points="17,6 23,6 23,12"/>
+                                    </svg>
+                                </div>
+                                <div class="visual-number">03</div>
+                                <div class="visual-title">Genereer Traffic & Verkopen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item step-reverse">
+                        <div class="step-content">
+                            <div class="step-header">
+                                <div class="step-number">04</div>
+                                <div class="step-info">
+                                    <h3 class="step-title">Schaal & Optimaliseer</h3>
+                                    <div class="step-timeframe">Maand 3+</div>
+                                </div>
+                            </div>
+                            
+                            <p class="step-description">
+                                Schaal je succesvolle campagnes en optimaliseer operaties voor duurzame groei naar €100k+ maandelijkse omzet.
+                            </p>
+
+                            <div class="step-details">
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Schaal winstgevende advertentiecampagnes systematisch</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Implementeer geavanceerde automatiseringstools</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Bouw je team en delegeer operaties</span>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-dot"></div>
+                                    <span>Ontwikkel je merk voor langetermijnsucces</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="step-visual">
+                            <div class="visual-container">
+                                <div class="visual-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </div>
+                                <div class="visual-number">04</div>
+                                <div class="visual-title">Schaal & Optimaliseer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Timeline -->
+                <div class="success-timeline">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Typische Student Succes Tijdlijn</h3>
+                        <p class="timeline-description">Gemiddelde mijlpalen gebaseerd op 5.000+ student resultaten</p>
+                    </div>
+
+                    <div class="timeline-grid">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <span>30d</span>
+                            </div>
+                            <h4 class="timeline-milestone">Eerste Maand</h4>
+                            <p class="timeline-result">Winkel gelanceerd en eerste verkopen</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon timeline-icon-green">
+                                <span>90d</span>
+                            </div>
+                            <h4 class="timeline-milestone">Derde Maand</h4>
+                            <p class="timeline-result">€5k-€10k maandelijkse omzet</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon timeline-icon-orange">
+                                <span>6m</span>
+                            </div>
+                            <h4 class="timeline-milestone">Zes Maanden</h4>
+                            <p class="timeline-result">€20k-€50k maandelijkse omzet</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon timeline-icon-purple">
+                                <span>12m</span>
+                            </div>
+                            <h4 class="timeline-milestone">Een Jaar</h4>
+                            <p class="timeline-result">€100k+ maandelijkse omzet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="succesverhalen" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Echte Studenten, Echte Resultaten</h2>
+                    <p class="section-description">
+                        Geloof niet alleen ons woord. Zie hoe onze studenten hun leven hebben getransformeerd 
+                        met ons bewezen e-commerce onderwijs programma.
+                    </p>
+
+                    <!-- Overall Stats -->
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <div class="stat-value">5.000+</div>
+                            <div class="stat-label">Succesverhalen</div>
+                        </div>
+                        <div class="testimonial-stat">
+                            <div class="stat-value">€10M+</div>
+                            <div class="stat-label">Omzet Gegenereerd</div>
+                        </div>
+                        <div class="testimonial-stat">
+                            <div class="stat-value">87%</div>
+                            <div class="stat-label">Succespercentage</div>
+                        </div>
+                        <div class="testimonial-stat">
+                            <div class="stat-value">4.9★</div>
+                            <div class="stat-label">Gemiddelde Beoordeling</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials Grid -->
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="Sarah van der Berg" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">Sarah van der Berg</h3>
+                                <p class="testimonial-title">E-commerce Ondernemer</p>
+                                <p class="testimonial-location">Amsterdam, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€125,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "Ik ging van complete beginner naar €125k maandelijkse omzet in slechts 8 maanden. De community ondersteuning en wekelijkse coaching calls waren game-changers voor mij."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Begonnen met €300, nu €125k/maand genereren</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="Marco Jansen" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">Marco Jansen</h3>
+                                <p class="testimonial-title">Digital Marketing Specialist</p>
+                                <p class="testimonial-location">Rotterdam, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€85,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "De AI tools en automatiseringsstrategieën die in dit programma worden geleerd hebben me 20+ uur per week bespaard. Ik kan me nu focussen op schalen in plaats van dagelijkse operaties."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Geautomatiseerde systemen gebouwd die €85k/maand genereren</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="Lisa de Vries" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">Lisa de Vries</h3>
+                                <p class="testimonial-title">Voormalig Corporate Executive</p>
+                                <p class="testimonial-location">Utrecht, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€95,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "Na 15 jaar in het bedrijfsleven bouwde ik mijn eigen €95k/maand business in 6 maanden. De stap-voor-stap begeleiding maakte het mogelijk zelfs met mijn drukke schema."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Corporate salaris vervangen door €95k/maand business</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="David Bakker" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">David Bakker</h3>
+                                <p class="testimonial-title">Universiteitsstudent</p>
+                                <p class="testimonial-location">Den Haag, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€45,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "Als student begon ik met slechts €200. Binnen 4 maanden verdiende ik meer dan mijn ouders. De community hielp me bij elke stap."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Student die €45k/maand verdient tijdens studie</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="Emma Smit" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">Emma Smit</h3>
+                                <p class="testimonial-title">Mode Ondernemer</p>
+                                <p class="testimonial-location">Eindhoven, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€110,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "Het leveranciersnetwerk en branding strategieën hielpen me een premium mode merk te bouwen. Ik ging van dropshipping naar mijn eigen merk in slechts één jaar."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Premium merk gebouwd dat €110k/maand genereert</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                                 alt="Tom Visser" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">Tom Visser</h3>
+                                <p class="testimonial-title">Tech Professional</p>
+                                <p class="testimonial-location">Groningen, Nederland</p>
+                            </div>
+                            <div class="testimonial-revenue">
+                                <div class="revenue-amount">€75,000/month</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                            </svg>
+                            <p>
+                                "De technische kant was perfect voor mij. De integratie met AI tools en geavanceerde analytics hielp me alles te optimaliseren voor maximale winst."
+                            </p>
+                        </div>
+
+                        <div class="testimonial-result">
+                            <svg class="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"/>
+                                <polyline points="17,6 23,6 23,12"/>
+                            </svg>
+                            <span>Geoptimaliseerde tech stack die €75k/maand genereert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="veelgestelde-vragen" class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Veelgestelde Vragen</h2>
+                    <p class="section-description">
+                        Krijg antwoorden op de meest gestelde vragen over ons e-commerce onderwijs programma 
+                        en wat je kunt verwachten van je reis naar het bouwen van een succesvol online bedrijf.
+                    </p>
+                </div>
+
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Hoeveel geld heb ik nodig om mijn e-commerce business te starten?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Je kunt beginnen met zo weinig als €300-€500. Dit dekt je initiële productkosten, basis tools en advertentiebudget. In tegenstelling tot traditionele bedrijven die tienduizenden euro's aan opstartkapitaal vereisen, minimaliseert ons dropshipping model de voorinvestering terwijl het winstpotentieel wordt gemaximaliseerd.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item faq-open">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Heb ik technische ervaring nodig om mijn online winkel te bouwen?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Geen technische ervaring is vereist. Ons programma bevat stap-voor-stap video tutorials die je begeleiden bij het opzetten van je winkel met gebruiksvriendelijke platforms. We bieden kant-en-klare templates en behandelen alle technische complexiteit voor je. Als je eenvoudige instructies kunt volgen, kun je je winkel bouwen.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Hoe snel kan ik resultaten verwachten en mijn eerste verkoop maken?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>De meeste studenten maken hun eerste verkoop binnen 2-4 weken na het voltooien van de initiële modules. Het bouwen van een duurzaam €5k-€20k maandelijks inkomen duurt echter meestal 2-4 maanden van consistente inspanning. We bieden realistische tijdlijnen en helpen je haalbare mijlpalen te stellen gedurende je reis.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Wat maakt jullie programma anders dan andere e-commerce cursussen?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ons programma is gebouwd door ondernemers die persoonlijk meer dan €10 miljoen aan e-commerce omzet hebben gegenereerd. We bieden doorlopende ondersteuning via wekelijkse coaching calls, een actieve community van 5.000+ studenten en geavanceerde AI tools. Plus, je krijgt levenslange toegang tot alle updates en nieuwe content.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Bieden jullie doorlopende ondersteuning nadat ik de cursus heb voltooid?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ja! Je krijgt levenslange toegang tot onze community en 6 wekelijkse coaching calls. Ons expert team blijft je ondersteunen terwijl je je business laat groeien. We updaten ook regelmatig de cursusinhoud met nieuwe strategieën en tools om je voor te blijven op de concurrentie.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Kan ik dit part-time doen terwijl ik mijn huidige baan behoud?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absoluut! Veel van onze meest succesvolle studenten begonnen part-time. Je kunt beginnen met slechts 10-15 uur per week en opschalen naarmate je business groeit. Ons systeem is ontworpen om rond je bestaande verplichtingen te passen, en we bieden tijdmanagement strategieën specifiek voor part-time ondernemers.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Wat als ik buiten Nederland woon? Werkt dit internationaal?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Onze strategieën werken wereldwijd! Hoewel onze oprichters gevestigd zijn in Nederland, komen onze studenten uit heel Europa en daarbuiten. We behandelen internationale verzending, wereldwijde betalingsverwerking en regiospecifieke marketingstrategieën. De e-commerce principes die we leren zijn universeel toepasbaar.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Is er een geld-terug-garantie als ik niet tevreden ben?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ja, we bieden een 30-dagen geld-terug-garantie. Als je de eerste maand training voltooit en niet tevreden bent met de kwaliteit en waarde van ons programma, zullen we je investering volledig terugbetalen. We zijn zelfverzekerd over ons systeem en staan er 100% achter.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Hoe helpen jullie me winstgevende producten te vinden om te verkopen?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We bieden toegang tot onze eigen productonderzoek tools en database van gescreende leveranciers. Je leert onze bewezen productselectie criteria, marktvalidatie technieken en trendanalyse methoden. We delen ook winnende producten uit onze community en leren je kansen te identificeren die anderen missen.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Welke doorlopende kosten kan ik verwachten naast de cursuskosten?</h3>
+                            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"/>
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Naast de programmakosten heb je budget nodig voor productkosten (meestal €100-€300/maand om te beginnen), advertentie-uitgaven (we raden aan te beginnen met €300-€500/maand), en basis business tools (rond €50-€100/maand). We leren je hoe je deze kosten effectief beheert en winstgevend schaalt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section id="schrijf-je-nu-in" class="final-cta-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Klaar Om Je €100k+ E-commerce Business Te Bouwen?</h2>
+                    <p class="section-description">
+                        Sluit je aan bij duizenden succesvolle ondernemers die hun leven hebben getransformeerd met ons bewezen systeem. 
+                        Je reis naar financiële vrijheid begint vandaag.
+                    </p>
+                </div>
+
+                <!-- Main CTA Card -->
+                <div class="cta-card">
+                    <div class="cta-header">
+                        <h3 class="cta-title">Klaar Om Je E-commerce Reis Te Beginnen?</h3>
+                    </div>
+
+                    <!-- Benefits Grid -->
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <div class="cta-benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <h4 class="cta-benefit-title">5.000+ Studenten Community</h4>
+                            <p class="cta-benefit-description">Sluit je aan bij onze actieve community van succesvolle ondernemers</p>
+                        </div>
+                        <div class="cta-benefit">
+                            <div class="cta-benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                    <path d="M4 22h16"/>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+                                </svg>
+                            </div>
+                            <h4 class="cta-benefit-title">87% Succespercentage</h4>
+                            <p class="cta-benefit-description">Bewezen track record met gedocumenteerde student resultaten</p>
+                        </div>
+                        <div class="cta-benefit">
+                            <div class="cta-benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12,6 12,12 16,14"/>
+                                </svg>
+                            </div>
+                            <h4 class="cta-benefit-title">Levenslange Toegang</h4>
+                            <p class="cta-benefit-description">Verlies nooit toegang tot updates, nieuwe content en community</p>
+                        </div>
+                        <div class="cta-benefit">
+                            <div class="cta-benefit-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4"/>
+                                    <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                                    <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
+                                    <path d="M3 12c0 6 6 9 9 9s9-3 9-9"/>
+                                </svg>
+                            </div>
+                            <h4 class="cta-benefit-title">30-Dagen Garantie</h4>
+                            <p class="cta-benefit-description">Risicovrij met onze geld-terug-garantie</p>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="cta-button-container">
+                        <a href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535" class="btn btn-primary btn-xl">
+                            <span>Start Je Reis Nu</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12,5 19,12 12,19"/>
+                            </svg>
+                        </a>
+                        <p class="cta-security">Veilige betalingsverwerking • Directe toegang na aankoop</p>
+                    </div>
+                </div>
+
+                <!-- Trust Indicators -->
+                <div class="final-trust-indicators">
+                    <div class="trust-indicator-item">
+                        <div class="trust-value">5.000+</div>
+                        <div class="trust-label">Tevreden Studenten</div>
+                    </div>
+                    <div class="trust-indicator-item">
+                        <div class="trust-value">€10M+</div>
+                        <div class="trust-label">Omzet Gegenereerd</div>
+                    </div>
+                    <div class="trust-indicator-item">
+                        <div class="trust-value">4.9★</div>
+                        <div class="trust-label">Gemiddelde Beoordeling</div>
+                    </div>
+                    <div class="trust-indicator-item">
+                        <div class="trust-value">24/7</div>
+                        <div class="trust-label">Community Ondersteuning</div>
+                    </div>
+                </div>
+
+                <!-- Final Urgency -->
+                <div class="final-urgency">
+                    <div class="urgency-badge">
+                        ⚡ Sluit je aan bij 127 studenten die zich deze week hebben ingeschreven
+                    </div>
+                    <p class="urgency-text">
+                        Wacht niet tot morgen om je financiële toekomst te beginnen bouwen. 
+                        Elke dag dat je uitstelt is potentiële omzet verloren. Onderneem nu actie.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                        <span class="logo-text">Ecom Education</span>
+                    </div>
+                    
+                    <p class="footer-description">
+                        Het empoweren van ondernemers om succesvolle e-commerce bedrijven te bouwen door bewezen strategieën, 
+                        uitgebreide training en doorlopende ondersteuning. Opgericht door succesvolle ondernemers die 
+                        meer dan €10 miljoen aan e-commerce omzet hebben gegenereerd.
+                    </p>
+
+                    <div class="footer-cta">
+                        <h3 class="footer-cta-title">Klaar om te beginnen?</h3>
+                        <a href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535" class="btn btn-primary">
+                            <span>Start Je E-commerce Reis</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15,3 21,3 21,9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3 class="footer-links-title">Snelle Links</h3>
+                    <ul class="footer-nav">
+                        <li><a href="#programma" class="footer-nav-link">Complete Programma</a></li>
+                        <li><a href="#succesverhalen" class="footer-nav-link">Succesverhalen</a></li>
+                        <li><a href="#hoe-het-werkt" class="footer-nav-link">Hoe Het Werkt</a></li>
+                        <li><a href="#veelgestelde-vragen" class="footer-nav-link">Veelgestelde Vragen</a></li>
+                        <li>
+                            <a href="https://www.paypro.nl/producten/Ecom_Education_Programma_(twv_%E2%82%AC6482)/107285/14535" 
+                               class="footer-nav-link footer-nav-cta">
+                                <span>Schrijf Je Nu In</span>
+                                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15,3 21,3 21,9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        © 2025 Ecom Education. Alle rechten voorbehouden.
+                    </div>
+                    
+                    <div class="footer-badges">
+                        <span class="footer-badge">🇳🇱 Nederlandse E-commerce Training</span>
+                        <span class="footer-badge">🌍 Wereldwijde Strategieën</span>
+                    </div>
+                </div>
+                
+                <div class="footer-disclaimer">
+                    <p>
+                        <strong>Disclaimer:</strong> Deze website bevat affiliate links. Individuele resultaten kunnen variëren. 
+                        Succes in e-commerce vereist toewijding, inspanning en toepassing van de geleerde strategieën. 
+                        Hoewel dit programma duizenden heeft geholpen significante resultaten te behalen, kunnen we geen 
+                        specifieke inkomensniveaus garanderen. Alle testimonials zijn representatief maar individuele 
+                        ervaringen kunnen verschillen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
